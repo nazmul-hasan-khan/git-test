@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Inter;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h5 {
+    color: #1D1D1D;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+}
+
+.main-menu ul {
+    display: flex;
+}
+.main-menu li.get-started-link a {
+    background-color: #1361f5;
+    color: #fff;
+    border-radius: 10px;
+}
+.main-menu li {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.main-menu li a {
+    display: inline-block;
+    padding: 15px;
+    color: #1D1D1D;
+}
+.logo {
+    margin-left: 35px;
+}
+
+.main-menu li.login-link a {
+    color: #1361f5;
+}
+
+.hero {
+    margin-left: 30px;
+    padding: 5px;
+}
+.hero-text h2 {
+    font-size: 48px;
+    letter-spacing: -1px;
+    margin-bottom: 35px;
+    line-height: 50px;
+}
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn.primary-btn {
+    background-color: #1361f5;
+    color: #fff;
+    border-color: #1361f5;
+}
+.btn.secondary-btn {
+    border-color: #E0E0E0;
+    color: #1361f5;
+}
+.btn {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 27px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.hero-text p {
+    margin-bottom: 45px;
+}
